@@ -5,9 +5,7 @@
 
 // This file contains small utility functions that are used throughout the website
 
-/**
- * Updates the copyright year by appending the current year onto the "copyright-year".
- */
+/// Updates the copyright year by appending the current year onto the "copyright-year".
 function updateCopyrightYear() {
     const copyrightYearElement = document.getElementById('copyright-year');
 	const currentYear = new Date().getFullYear();
