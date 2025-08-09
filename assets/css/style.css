@@ -1,0 +1,42 @@
+/* Social buttons (right side) */
+.socials {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 1%;
+	bottom: 50%;
+}
+
+.social-icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0.5rem;
+	object-fit: contain;
+}
+
+/* About me section. Profile picture + "about-me" text */
+.profilepicture {
+	width: 25rem;
+	object-fit: contain;
+	padding: 1rem;
+}
+
+.aboutme {
+	padding: 1rem;
+}
+
+.about {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 90%;
+}
+
+@media screen and (max-width: 60rem) {
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 90%;
+	}
+}
