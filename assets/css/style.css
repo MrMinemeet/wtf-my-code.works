@@ -56,6 +56,20 @@ nav {
 		align-items: center;
 		width: 90%;
 	}
+
+	.profilepicture {
+		max-width: 25rem;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		padding: 1rem;
+	}
+}
+
+@media screen and (max-width: 35rem) {
+	.socials {
+		visibility: collapse;
+	}
 }
 
 /* Footer */
