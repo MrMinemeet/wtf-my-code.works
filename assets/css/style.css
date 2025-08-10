@@ -1,3 +1,15 @@
+/* navbar */
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.naventry {
+	padding: 0 1rem
+}
+
 /* Social buttons (right side) */
 .socials {
 	display: flex;
@@ -30,6 +42,7 @@
 	flex-direction: row;
 	align-items: center;
 	width: 90%;
+	max-width: 100rem;
 }
 
 @media screen and (max-width: 60rem) {
@@ -39,4 +52,11 @@
 		align-items: center;
 		width: 90%;
 	}
+}
+
+/* Footer */
+footer {
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
