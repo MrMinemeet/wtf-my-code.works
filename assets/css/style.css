@@ -17,6 +17,10 @@ nav {
 	position: fixed;
 	right: 1%;
 	bottom: 50%;
+	background-color: rgba(211, 211, 211, 0.4);
+	border-radius: 0.5rem;
+	padding: 0.25rem;
+	backdrop-filter: blur(4px);
 }
 
 .social-icon {
