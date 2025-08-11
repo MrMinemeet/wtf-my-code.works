@@ -54,6 +54,7 @@ nav {
 	width: 25rem;
 	object-fit: contain;
 	padding: 1rem;
+	aspect-ratio: 1;
 }
 
 .aboutme {
