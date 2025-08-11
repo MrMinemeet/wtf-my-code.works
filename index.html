@@ -27,8 +27,8 @@
 		<nav>
 			<h1>Alexander Voglsperger</h1>
 			<div class="navmenu">
-				<a class="naventry" href="/projects">Projects</a>
 				<a class="naventry" href="/contact">Contact</a>
+				<a class="naventry" href="/projects">Projects</a>
 			</div>
 		</nav>
 	</header>
@@ -77,7 +77,7 @@
 		<section class="work-experience">
 			<h2>Work Experience</h2>
 			<div class="work-experience-list">
-				<div class="work-experience-item">
+				<div class="item">
 					<h3>Software Engineer</h3>
 					<p><a href="https://dynatrace.com" target="_blank">Dynatrace Austria - Linz</a></p>
 					<p>
@@ -90,7 +90,7 @@
 						Node.js OneAgent.
 					</p>
 				</div>
-				<div class="work-experience-item">
+				<div class="item">
 					<h3>Full-Time Intern in Software Development</h3>
 					<p><a href="https://dynatrace.com" target="_blank">Dynatrace Austria - Linz</a></p>
 					<p>July 2024 - Mid/End of September 2024</p>
@@ -101,7 +101,7 @@
 						Adapting OneAgent Node.js to support new functions
 					</p>
 				</div>
-				<div class="work-experience-item">
+				<div class="item">
 					<h3>Tutor</h3>
 					<p><a href="https://ssw.jku.at" target="_blank">JKU - Institute for System Software</a></p>
 					<p>October 2023 - End of June 2024</p>
@@ -110,7 +110,7 @@
 						"Praktikum Softwareentwicklung 2".
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>Full-Time Intern in Software Development</h3>
 					<p><a href="https://dynatrace.com" target="_blank">Dynatrace Austria - Linz</a></p>
 					<p>July 2023 - End of September 2023</p>
@@ -120,7 +120,7 @@
 						adjustments on internal processes.
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>Tutor</h3>
 					<p><a href="https://ssw.jku.at" target="_blank">JKU - Institute for System Software</a></p>
 					<p>October 2022 - End of June 2023</p>
@@ -129,7 +129,7 @@
 						"Softwareentwicklung 2".
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>Full-Time Intern in Software Development</h3>
 					<p><a href="https://dynatrace.com" target="_blank">Dynatrace Austria - Linz</a></p>
 					<p>July 2022 - End of August 2022</p>
@@ -140,7 +140,7 @@
 						timeout.
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>Tutor</h3>
 					<p><a href="https://ssw.jku.at" target="_blank">JKU - Institute for System Software</a></p>
 					<p>October 2021 - End of June 2022</p>
@@ -149,7 +149,7 @@
 						"Softwareentwicklung 2".
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>Research Intern</h3>
 					<p><a href="https://www.jku.at/en/lit-artificial-intelligence-lab/" target="_blank">JKU - Artificial
 							Intelligence Lab</a></p>
@@ -159,7 +159,7 @@
 						about it.
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>IT-Intern</h3>
 					<p><a href="https://www.bhsried.at/" target="_blank">Barmherzige Schwestern Krankenhaus Ried</a></p>
 					<p>July 2018</p>
@@ -168,7 +168,7 @@
 						bring them to the respective departments. I also did basic maintenance of printers.
 					</p>
 				</div>
-				<div class="work-experience-item hidden">
+				<div class="item hidden">
 					<h3>IT-Intern</h3>
 					<p><a href="https://www.team7.at" target="_blank">TEAM 7 Natürlich Wohnen GmbH</a></p>
 					<p>July 2017</p>
@@ -264,14 +264,15 @@
 		<!-- Social accounts - Fixed to the right -->
 		<div class="socials">
 			<a href="https://github.com/MrMinemeet" target="_blank">
-				<img src="assets/icons-light/github.svg" alt="GitHub" loading="lazy" class="social-icon" />
+				<img src="assets/icons-light/github.svg" alt="GitHub"class="social-icon"/>
 			</a>
 			<a rel="me" href="https://fosstodon.org/@MrMinemeet" target="_blank">
-				<img src="assets/icons-light/mastodon.svg" alt="Fosstodon" loading="lazy" class="social-icon" />
+				<img src="assets/icons-light/mastodon.svg" alt="Fosstodon"class="social-icon"/>
 			</a>
 			<a href="https://www.linkedin.com/in/alexander-voglsperger/" target="_blank">
-				<img src="assets/icons-light/linked-in.png" alt="LinkedIn" loading="lazy" class="social-icon" />
+				<img src="assets/icons-light/linked-in.png" alt="LinkedIn"class="social-icon"/>
 			</a>
+			<img src="assets/icons-light/envelope.svg" alt="Email"class="social-icon" id="mail-button" data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()"/>
 		</div>
 	</main>
 

@@ -63,9 +63,25 @@ nav {
 .about {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	justify-content: center;
 	width: 90%;
 	max-width: 100rem;
+}
+
+/* Work Experience */
+.work-experience-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 80rem;
+}
+
+.item {
+	width: 70%;
+}
+
+.social-icon {
+	cursor: pointer;
 }
 
 @media screen and (max-width: 60rem) {

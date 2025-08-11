@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	if (ldWorkBtn) {
 		// Loads more work experience items when the "Load More" button is clicked.
 		ldWorkBtn.addEventListener('click', () => {
-			const hiddenWorkDivs = document.querySelectorAll('.work-experience-item.hidden');
+			const hiddenWorkDivs = document.querySelectorAll('.work-experience-list .item.hidden');
 			hiddenWorkDivs.forEach(div => div.classList.remove('hidden'));
 			ldWorkBtn.style.display = 'none';
 		});
@@ -25,4 +25,10 @@ function updateCopyrightYear() {
 	if (copyrightYearElement != null && !copyrightYearElement.textContent.includes(`${currentYear}`)) {
 		copyrightYearElement.textContent += ` - ${currentYear}`;
 	}
+}
+
+/// Utilizes the obfuscated email address to create a mailto link.
+function mailTo() {
+	const button = document.getElementById('mail-button');
+	window.location.href = `mailto:${button.getAttribute('data-user')}@${button.getAttribute('data-domain')}`;
 }
