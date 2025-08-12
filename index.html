@@ -10,7 +10,8 @@
 		content="alexander, voglsperger, alex, mrminemeet, wtf, my, code, works, developer, austria" />
 	<meta name="author" content="Alexander Voglsperger" />
 
-	<!--CSS Styles -->
+	<link rel="preload" href="/assets/fonts/roboto/roboto-regular-latin.woff2" as="font" type="font/woff2"
+		crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<!-- Favicons -->
@@ -35,7 +36,7 @@
 	<main>
 		<section class="about">
 			<img class="profilepicture" src="assets/images/front_shot.webp" alt="Alexander Voglsperger Front shot"
-				class="main-image" />
+				class="main-image" fetchpriority=high />
 			<div class="aboutme">
 				<h2>About Me</h2>
 				<p>
@@ -264,15 +265,16 @@
 		<!-- Social accounts - Fixed to the right -->
 		<div class="socials">
 			<a href="https://github.com/MrMinemeet" target="_blank">
-				<img src="assets/icons-light/github.svg" alt="GitHub"class="social-icon"/>
+				<img src="assets/icons-light/github.svg" alt="GitHub" class="social-icon" />
 			</a>
 			<a rel="me" href="https://fosstodon.org/@MrMinemeet" target="_blank">
-				<img src="assets/icons-light/mastodon.svg" alt="Fosstodon"class="social-icon"/>
+				<img src="assets/icons-light/mastodon.svg" alt="Fosstodon" class="social-icon" />
 			</a>
 			<a href="https://www.linkedin.com/in/alexander-voglsperger/" target="_blank">
-				<img src="assets/icons-light/linked-in.png" alt="LinkedIn"class="social-icon"/>
+				<img src="assets/icons-light/linked-in.png" alt="LinkedIn" class="social-icon" />
 			</a>
-			<img src="assets/icons-light/envelope.svg" alt="Email"class="social-icon" id="mail-button" data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()"/>
+			<img src="assets/icons-light/envelope.svg" alt="Email" class="social-icon" id="mail-button"
+				data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()" />
 		</div>
 	</main>
 
