@@ -1,0 +1,35 @@
+linked-in.svg:
+Free Download Linkedin 94 SVG vector file in monocolor and multicolor type for
+Sketch and Figma from Linkedin 94 Vectors svg vector collection. Linkedin 94
+Vectors SVG vector illustration graphic art design format.
+
+COLLECTION: Denali Line Interface Icons
+LICENSE: MIT License (https://opensource.org/license/mit)
+AUTHOR: Denali Design
+DOWLOADED FROM: https://www.svgrepo.com/
+--------------------------------------------------------------------------------
+mastodon.svg
+Free Download Mastodon 7 SVG vector file in monocolor and multicolor type for 
+Sketch and Figma from Mastodon 7 Vectors svg vector collection. Mastodon 7
+Vectors SVG vector illustration graphic art design format.
+
+COLLECTION: Bootstrap UI Icons
+LICENSE: MIT License (https://opensource.org/license/mit)
+AUTHOR: Bootstrap
+DOWLOADED FROM: https://www.svgrepo.com/
+
+--------------------------------------------------------------------------------
+github.svg & github-white.svg:
+provided by Github directly
+https://github.com/logos
+
+--------------------------------------------------------------------------------
+envelope.svg:
+Free Download Envelope Fill 3 SVG vector file in monocolor and multicolor type
+for Sketch and Figma from Envelope Fill 3 Vectors svg vector collection.
+Envelope Fill 3 Vectors SVG vector illustration graphic art design format.
+
+COLLECTION: Framework7 Filled Icons
+LICENSE: MIT License (https://opensource.org/license/mit)
+AUTHOR: framework7io
+DOWLOADED FROM: https://www.svgrepo.com/
