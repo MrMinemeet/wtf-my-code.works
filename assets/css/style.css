@@ -75,6 +75,10 @@ h1 {
 }
 
 /* Work & Education lists */
+.list-header {
+	text-align: center;
+}
+
 .list {
 	display: flex;
 	flex-direction: column;
