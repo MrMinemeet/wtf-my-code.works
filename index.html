@@ -12,7 +12,8 @@
 
 	<link rel="preload" href="/assets/fonts/roboto/roboto-regular-latin.woff2" as="font" type="font/woff2"
 		crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="preload" href="assets/css/critical.css" />
+	<link rel="stylesheet" href="assets/css/critical.css" />
 
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons//favicon-16x16.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
@@ -75,7 +76,7 @@
 
 		<!-- Work related experience -->
 		<section class="work-experience">
-			<h2 class ="list-header">Work Experience</h2>
+			<h2 class="list-header">Work Experience</h2>
 			<div class="list">
 				<div class="item">
 					<h3>Software Engineer</h3>
@@ -183,7 +184,7 @@
 
 		<!-- Education related experience -->
 		<section class="education">
-			<h2 class ="list-header">Education</h2>
+			<h2 class="list-header">Education</h2>
 			<div class="list">
 				<div class="item">
 					<h3>Computer Science Master<br><small>Software Engineering</small></h3>
@@ -196,9 +197,8 @@
 						Dynatrace. In contrast to other tools which only support certain architectures or operating
 						systems, this library aims to be written in a modular way, such that multi-architecture and
 						multi-operating system support can be achieved.<br>
-						The written thesis is available on <a
-							href="assets/files/university/A_Generic_Machine_Code_Instrumentation_Library.pdf"
-							target="_blank">here</a>.
+						The written thesis is available on <a class="download" target="_blank"
+							href="assets/files/university/A_Generic_Machine_Code_Instrumentation_Library.pdf">here</a>.
 					</p>
 				</div>
 				<div class="item">
@@ -225,12 +225,13 @@
 						specified grammar. This tool allows lecturers to iterate over homework examples much faster than
 						by
 						hand.<br>
-						The written thesis is available on <a href="assets/files/university/LALR1_Table_Generator.pdf"
-							target="_blank">here</a>.
+						The written thesis is available on <a class="download" target="_blank"
+							href="assets/files/university/LALR1_Table_Generator.pdf">here</a>.
 					</p>
 				</div>
 				<div class="item">
-					<h3>Elektronik und Technische Informatik<br><small>Mobile Computing & Software Engineering</small></h3>
+					<h3>Elektronik und Technische Informatik<br><small>Mobile Computing & Software Engineering</small>
+					</h3>
 					<p>HTL Braunau</p>
 					<p class="date">September 2015 - June 2020</p>
 					<p>
@@ -245,9 +246,8 @@
 							Intelligence Lab</a>. The project was about "<em>Autonomous Car Mapping and Tracking</em>",
 						where we tried to get <em>SLAM</em> algorithms working on a small Audi self-driving car.
 						<br>
-						The written Maturaarbeit is available on <a
-							href="https://github.com/MrMinemeet/ACMT/releases/download/FINAL/Autonomous_Car_Mapping_and_Tracking.pdf"
-							target="_blank">here</a>.
+						The written Maturaarbeit is available on <a class="download" target="_blank"
+							href="https://github.com/MrMinemeet/ACMT/releases/download/FINAL/Autonomous_Car_Mapping_and_Tracking.pdf">here</a>.
 					</p>
 				</div>
 			</div>
@@ -269,8 +269,8 @@
 			<a href="https://www.linkedin.com/in/alexander-voglsperger/" target="_blank">
 				<img src="assets/icons/linked-in.svg" alt="LinkedIn" class="social-icon" />
 			</a>
-			<img src="assets/icons/envelope.svg" alt="Email" class="social-icon" id="mail-button"
-				data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()" />
+			<img src="assets/icons/envelope.svg" alt="Email" class="social-icon" id="mail-button" data-user="contact"
+				data-domain="wtf-my-code.works" onclick="mailTo()" />
 		</div>
 	</main>
 
@@ -279,6 +279,7 @@
 		<p>All rights reserved</p>
 	</footer>
 
+	<link rel="stylesheet" href="assets/css/non-critical.css" media="print" onload="this.media='all'">
 	<script src="assets/scripts/util.js" defer onload="updateCopyrightYear()"></script>
 </body>
 

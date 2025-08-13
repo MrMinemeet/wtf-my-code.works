@@ -1,0 +1,6 @@
+/* This CSS file houses stylings that can be loaded in a non-critical manner */
+
+a:hover {
+	color: var(--secondary-light-color);
+	transition: var(--transition);
+}
