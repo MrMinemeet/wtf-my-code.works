@@ -9,11 +9,14 @@
 	--font-family: "Roboto", Arial, Helvetica, sans-serif;
 	--primary-light-color: #4765df;
 	--secondary-light-color: #ff7235;
+	--bg-color: #fcfcfc;
 	--transition: 0.3s;
 }
 
 body {
 	font-family: var(--font-family);
+	margin: 0;
+	padding: 0;
 }
 
 .hidden {
@@ -30,6 +33,11 @@ a.download {
 	text-decoration: underline;
 }
 
+header {
+	background-color: var(--bg-color);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	padding: 0 1rem
+}
 /* navbar */
 nav {
 	display: flex;
@@ -41,21 +49,23 @@ nav {
 h1 {
 	color: var(--primary-light-color);
 }
+
 h2 {
 	color: var(--primary-light-color);
 }
+
 h3 {
 	color: var(--primary-light-color);
 }
 
 nav h1 {
 	font-size: 2.5rem;
-	margin: 0.67em 0;
+	margin: 0.6em 0;
 }
 
 nav .navmenu a {
 	font-size: 1.3em;
-	margin: 0.67em 0;
+	margin: 0.6rem 0;
 }
 
 .naventry {
