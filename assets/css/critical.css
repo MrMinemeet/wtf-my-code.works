@@ -9,14 +9,16 @@
 	--font-family: "Roboto", Arial, Helvetica, sans-serif;
 	--primary-light-color: #4765df;
 	--secondary-light-color: #ff7235;
-	--bg-color: #fcfcfc;
+	--bg-color-primary: #fcfcfc;
+	--bg-color-secondary: #f8f8f8;
 	--transition: 0.3s;
 }
 
-body {
+html, body {
 	font-family: var(--font-family);
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 .hidden {
@@ -34,7 +36,7 @@ a.download {
 }
 
 header {
-	background-color: var(--bg-color);
+	background-color: var(--bg-color-primary);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 	padding: 0 1rem
 }
@@ -214,6 +216,8 @@ nav .navmenu a {
 /* Footer */
 footer {
 	margin: 0;
-	padding: 0;
+	padding: 1rem;
 	text-align: center;
+	background-color: var(--bg-color-secondary);
+	border-top: 0.rem solid rgba(211, 211, 211, 1);
 }
