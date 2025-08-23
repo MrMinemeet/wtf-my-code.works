@@ -163,6 +163,10 @@ nav .navmenu a {
 	transition: transform 0.3s;
 }
 
+.project-image {
+	width: 95%
+}
+
 @media screen and (max-width: 60rem) {
 	.about {
 		display: flex;
