@@ -4,9 +4,11 @@
 		"Bachlor's",
 		"Barmherzige",
 		"Braunau",
+		"Cryptosystems",
 		"Elektronik",
 		"Fosstodon",
 		"Informatik",
+		"JVQY",
 		"Krankenhaus",
 		"LALR",
 		"Maturaarbeit",
@@ -17,5 +19,8 @@
 		"Softwareentwicklung",
 		"Technische",
 		"Wohnen"
-	]
+	],
+	"editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "html.format.wrapLineLength": 0
 }
