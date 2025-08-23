@@ -137,6 +137,16 @@ nav .navmenu a {
 }
 
 /* Projects Showcase */
+.project-link,
+.project-link:visited,
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
 .showcase-container {
 	width: 90%;
 	max-width: 1200px;
