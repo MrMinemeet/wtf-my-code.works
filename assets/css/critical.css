@@ -38,6 +38,7 @@ header {
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 	padding: 0 1rem
 }
+
 /* navbar */
 nav {
 	display: flex;
@@ -130,13 +131,50 @@ nav .navmenu a {
 	width: 60%;
 }
 
-.item .date {
+.date {
 	color: gray;
 	font-family: monospace;
 }
 
-.social-icon {
-	cursor: pointer;
+/* Projects Showcase */
+.project-link,
+.project-link:visited,
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.showcase-container {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	overflow-x: auto;
+	scrollbar-width: auto;
+}
+
+.card-row {
+	display: flex;
+	gap: 20px;
+	padding: 20px 0;
+}
+
+.project-card {
+	flex: 0 0 30%;
+	flex-direction: column;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	min-width: 300px;
+	box-sizing: border-box;
+	transition: transform 0.3s;
+}
+
+.project-image {
+	width: 95%
 }
 
 @media screen and (max-width: 60rem) {

@@ -4,3 +4,11 @@ a:hover {
 	color: var(--secondary-light-color);
 	transition: var(--transition);
 }
+
+.social-icon {
+	cursor: pointer;
+}
+
+.project-card:hover {
+	transform: scale(1.03);
+}
