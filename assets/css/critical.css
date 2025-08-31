@@ -11,6 +11,7 @@
 	--secondary-light-color: #ff7235;
 	--bg-color-primary: #fcfcfc;
 	--bg-color-secondary: #f8f8f8;
+	--primary-shadow: #8b8eaf;
 	--transition: 0.3s;
 }
 
@@ -143,6 +144,8 @@ button {
 
 .item {
 	width: 60%;
+	padding: 20px;
+	margin: 10px;
 }
 
 .date {
@@ -175,13 +178,16 @@ button {
 	padding: 20px 0;
 }
 
+.box {
+	background-color: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.5rem var(--primary-shadow);
+}
+
 .project-card {
 	flex: 0 0 30%;
 	flex-direction: column;
-	background: #fff;
 	padding: 20px;
-	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	min-width: 300px;
 	box-sizing: border-box;
 	transition: transform 0.3s;
