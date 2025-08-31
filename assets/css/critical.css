@@ -23,6 +23,12 @@ body {
 	height: 100%;
 }
 
+main {
+	flex: auto;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .hidden {
 	display: none;
 }
@@ -125,7 +131,6 @@ button {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding: 0 5rem;
 }
 
 /* Work & Education lists */
@@ -202,12 +207,10 @@ button {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 90%;
 	}
 
 	.profilepicture {
-		max-width: 25rem;
-		width: 100%;
+		width: 75%;
 		height: auto;
 		object-fit: contain;
 		padding: 1rem;
