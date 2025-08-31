@@ -125,7 +125,6 @@ button {
 	flex-direction: row;
 	align-items: center;
 	padding: 0 5rem;
-	max-width: 100rem;
 }
 
 /* Work & Education lists */
