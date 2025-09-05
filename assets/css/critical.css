@@ -211,6 +211,7 @@ button {
 
 	.profilepicture {
 		width: 75%;
+		max-width: 25rem;
 		height: auto;
 		object-fit: contain;
 		padding: 1rem;
