@@ -39,7 +39,7 @@ a {
 	transition: var(--transition);
 }
 
-a.download {
+a.decorate {
 	text-decoration: underline;
 }
 

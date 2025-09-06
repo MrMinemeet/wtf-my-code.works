@@ -29,8 +29,86 @@
 		</nav>
 	</header>
 
+	<main>
+		<section class="projects listcontainer">
+			<h2 class="list-header">Projects</h2>
+			<div class="list">
+				<div class="item box">
+					<h3>JSflare<br><small>A Dynamic DNS client using Cloudflare</small></h3>
+					<p>
+						JSflare is a simple command-line tool that keeps your Cloudflare DNS records updated with your current public IP address. Ideal for users with dynamic IPs who want to host services at home, it supports both Cloudflare API keys and tokens for secure authentication. Configure it easily with a JSON file and let it handle the rest.
+					</p>
+					<p>
+						The source code is available on <a class="decorate" target="_blank" href="https://github.com/MrMinemeet/jsflare">GitHub</a>.
+					</p>
+				</div>
+				<div class="item box">
+					<h3>AmznShipWarn<br><small>Know when an item isn't shipped by Amazon</small></h3>
+					<p>
+						AmznShipWarn is a lightweight browser extension that alerts you whenever an item on Amazon is not shipped directly by Amazon. Designed to help users avoid unexpected shipping costs or third-party sellers, it works across multiple Amazon domains and integrates seamlessly into both Firefox and Chromium-based browsers.
+					</p>
+					<p>
+						The extension is available on <a class="decorate" target="_blank" href="https://addons.mozilla.org/de/firefox/addon/amznshipwarn/">Firefox</a> and <a" target="_blank" href="https://chromewebstore.google.com/detail/amznshipwarn/hlechooecihfmncfdhdjjhkdpmojmllm">Chrome</a> stores.
+					</p>
+					<p>
+						The source code is available on <a class="decorate" target="_blank" href="https://github.com/MrMinemeet/AmznShipWarn/">GitHub</a>.
+					</p>
+				</div>
+				<div class="item box">
+					<h3>EBNF Railroad Visualizer<br><small>Visualize EBNF grammars as interactive railroad diagrams</small></h3>
+					<p>
+						EBNF Railroad Diagram Visualizer is a browser-based tool that turns EBNF grammars into interactive railroad diagrams. It supports Wirth Syntax Notation, highlights errors, and makes sharing grammars easy with URL encoding.
+					</p>
+					<p>
+						The visualizer is hosted on a best-effort basis on <a class="decorate" target="_blank" href="rr-diagram/"><a class="decorate" target="_blank" href="rr-diagram/">this website</a> and on <a class="decorate" target="_blank" href="https://mrminemeet.github.io/ebnf_railroad_visualizer/">Github Pages</a>.
+					</p>
+					<p>
+						The source code is available on <a class="decorate" target="_blank" href="https://github.com/MrMinemeet/ebnf_railroad_visualizer">GitHub</a>.
+					</p>
+				</div>
+				<div class="item box">
+					<h3>Eugen<br><small>From KUSSS data to organized Discord servers</small></h3>
+					<p>
+						Eugen is a Kotlin-based Discord bot that automatically manages course channels using KUSSS data. It creates and assigns channels for students, supports simple join/leave commands, and reduces server administration so users can focus on studying (or memes).
+					</p>
+					<p>
+						The source code is available on <a class="decorate" target="_blank" href="https://github.com/MrMinemeet/Eugen">GitHub</a>.
+					</p>
+				</div>
+				<div class="item box">
+					<h3>System Software Project<br><small>First-fit allocator with Mark & Sweep Garbage Collection</small></h3>
+					<p>
+						A System Software course project implementing a memory manager in C++. Utilizing first-fit allocation and a Mark & Sweep garbage collector based on the Deutsch-Schorr-Waite algorithm.
+					</p>
+					<p>
+						The source code is available on <a class="decorate" target="_blank" href="https://github.com/MrMinemeet/MemoryManagement">GitHub</a>.
+					</p>
+				</div>
+			</div>
+			<button onclick="window.location.href='https://github.com/MrMinemeet?tab=repositories'">Show More</button>
+		</section>
+		<!--
+		<section class="papers listcontainer">
+			<h2 class="list-header">Papers</h2>
+			<div class="list">
+				<div class="item box">
+					<h3>Computer Science Master<br><small>Software Engineering</small></h3>
+					<p>Johannes Kepler University Linz</p>
+					<p>
+						The main focus is on my Master's thesis about creating "<em>A Generic Machine Code Instrumentation Library</em>". This project is a collaboration between the SSW and Dynatrace. In contrast to other tools which only support certain architectures or operating systems, this library aims to be written in a modular way, such that multi-architecture and multi-operating system support can be achieved.<br>
+						The written thesis is available on <a class="download" target="_blank" href="assets/files/university/A_Generic_Machine_Code_Instrumentation_Library.pdf">here</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+		-->
+	</main>
+	<footer>
+		<p><span id="copyright-year">© 2025</span> Alexander Voglsperger</p>
+		<p>All rights reserved</p>
+	</footer>
+	<link rel="stylesheet" href="assets/css/non-critical.css" media="print" onload="this.media='all'">
+	<script src="assets/scripts/util.js" defer onload="updateCopyrightYear()"></script>
 </body>
-
-
 
 </html>
