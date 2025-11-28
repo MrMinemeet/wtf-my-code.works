@@ -7,16 +7,6 @@ COLLECTION: Denali Line Interface Icons
 LICENSE: MIT License (https://opensource.org/license/mit)
 AUTHOR: Denali Design
 DOWLOADED FROM: https://www.svgrepo.com/
---------------------------------------------------------------------------------
-mastodon.svg
-Free Download Mastodon 7 SVG vector file in monocolor and multicolor type for 
-Sketch and Figma from Mastodon 7 Vectors svg vector collection. Mastodon 7
-Vectors SVG vector illustration graphic art design format.
-
-COLLECTION: Bootstrap UI Icons
-LICENSE: MIT License (https://opensource.org/license/mit)
-AUTHOR: Bootstrap
-DOWLOADED FROM: https://www.svgrepo.com/
 
 --------------------------------------------------------------------------------
 github.svg & github-white.svg:
