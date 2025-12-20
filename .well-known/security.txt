@@ -1,0 +1,4 @@
+Contact: mailto:alex@wtf-my-code.works
+Expires: 2026-12-31T11:00:00.000Z
+Encryption: https://wtf-my-code.works/.well-known/publickey.alex@wtf-my-code.works-75fe0129875ae07d2559b7aac7a4b09e5afa83fb.asc
+Preferred-Languages: de, en
