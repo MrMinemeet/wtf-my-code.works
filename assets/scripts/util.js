@@ -29,3 +29,9 @@ function mailTo() {
 	const button = document.getElementById('mail-button');
 	window.location.href = `mailto:${button.getAttribute('data-user')}@${button.getAttribute('data-domain')}`;
 }
+
+/// Utilizes the obfuscated matrix address to create a matrix link.
+function matrixTo() {
+	const button = document.getElementById('matrix-button');
+	window.open(`https://matrix.to/#/@${button.getAttribute('data-user')}:${button.getAttribute('data-homeserver')}`, '_blank', 'noopener,noreferrer');
+}

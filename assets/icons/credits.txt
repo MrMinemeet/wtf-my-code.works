@@ -23,3 +23,8 @@ COLLECTION: Framework7 Filled Icons
 LICENSE: MIT License (https://opensource.org/license/mit)
 AUTHOR: framework7io
 DOWLOADED FROM: https://www.svgrepo.com/
+
+--------------------------------------------------------------------------------
+matrix.svg:
+provided by matrix.org directly
+https://matrix.org/branding/
