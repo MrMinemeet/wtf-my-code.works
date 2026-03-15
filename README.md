@@ -9,7 +9,3 @@ One of my goals with this website is to keep it as simple and lightweight as pos
 Lightweight in my context means, that the website should load quickly (by avoiding unnecessary resources), and it should keep most of its functionality even when JavaScript is disabled.
 
 **Important:** Changes to this repository updates my website automatically, but with a delay of at most five minutes. For more instant updates, please visit my [GitHub Pages](https://mrminemeet.github.io/wtf-my-code.works/) version of the site.
-
-# Git Hooks
-* post-merge: [hooks/post-merge](./hooks/post-merge) - Minifies pulled HTML, CSS and JS files  
-  It does not make much of a difference, but the improvement is basically for free, so I decided to add it.
