@@ -10,7 +10,8 @@ DOWLOADED FROM: https://www.svgrepo.com/
 
 --------------------------------------------------------------------------------
 github.svg & github-white.svg:
-provided by Github directly
+Logo is a trademark of "GitHub, Inc."
+It is provided by official GitHub resources directly, see:
 https://github.com/logos
 
 --------------------------------------------------------------------------------
@@ -26,5 +27,6 @@ DOWLOADED FROM: https://www.svgrepo.com/
 
 --------------------------------------------------------------------------------
 matrix.svg:
-provided by matrix.org directly
+Logo is a trademark of "The Matrix.org Foundation" 
+It is provided by official Matrix resources directly, see:
 https://matrix.org/branding/
