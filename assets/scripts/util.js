@@ -27,8 +27,10 @@ function updateCopyrightYear() {
 /// Utilizes the obfuscated email address to create a mailto link.
 function mailTo() {
 	const button = document.getElementById('mail-button');
-	if (button != null) {
-		window.location.href = `mailto:${button.getAttribute('data-user')}@${button.getAttribute('data-domain')}`;
+	const user = button?.getAttribute('data-user');
+	const domain = button?.getAttribute('data-domain');
+	if (user != null && domain != null) {
+		window.location.href = `mailto:${user}@${domain}`;
 	}
 }
 
