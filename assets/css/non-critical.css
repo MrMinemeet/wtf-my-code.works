@@ -9,6 +9,11 @@ a:hover {
 	cursor: pointer;
 }
 
+.social-button:hover {
+	background: var(--primary-light-color);
+	color: white;
+}
+
 .project-card:hover {
 	transform: scale(1.03);
 }

@@ -9,7 +9,7 @@
 function showMoreWork() {
 	const ldWorkBtn = document.getElementById('loadMoreWork');
 	const hiddenWorkDivs = document.querySelectorAll('.work-experience .list .item.hidden');
-	hiddenWorkDivs?.forEach(div => div.classList.remove('hidden'));
+	hiddenWorkDivs.forEach(div => div.classList.remove('hidden'));
 	if (ldWorkBtn != null) {
 		ldWorkBtn.style.display = 'none';
 	}

@@ -282,14 +282,18 @@
 
 		<!-- Social accounts - Fixed to the right -->
 		<div class="socials">
-			<a href="https://github.com/MrMinemeet" title="GitHub" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/MrMinemeet" aria-label="GitHub" class="social-button" target="_blank" rel="noopener noreferrer">
 				<img src="assets/icons/github.svg" alt="GitHub" class="social-icon" />
 			</a>
-			<a href="https://www.linkedin.com/in/alexander-voglsperger/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+			<a href="https://www.linkedin.com/in/alexander-voglsperger/" aria-label="LinkedIn" class="social-button" target="_blank" rel="noopener noreferrer">
 				<img src="assets/icons/linked-in.svg" alt="LinkedIn" class="social-icon" />
 			</a>
-			<img src="assets/icons/envelope.svg" title="Email contact" alt="Email" class="social-icon" id="mail-button" data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()" />
-			<img src="assets/icons/matrix.svg" title="Matrix contact" alt="Matrix" class="social-icon" id="matrix-button" data-user="alevog" data-homeserver="matrix.org" onclick="matrixTo()" />
+			<button type="button" aria-label="Email contact" class="social-button" id="mail-button" data-user="contact" data-domain="wtf-my-code.works" onclick="mailTo()">
+				<img src="assets/icons/envelope.svg" alt="Email" class="social-icon" aria-hidden="true" />
+			</button>
+			<button type="button" aria-label="Matrix contact" class="social-button" id="matrix-button" data-user="alevog" data-homeserver="matrix.org" onclick="matrixTo()">
+				<img src="assets/icons/matrix.svg" alt="Matrix.org logo" class="social-icon" aria-hidden="true" />
+			</button>
 		</div>
 	</main>
 
