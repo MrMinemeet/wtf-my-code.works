@@ -11,8 +11,31 @@
 	--secondary-light-color: #ff7235;
 	--bg-color-primary: #fcfcfc;
 	--bg-color-secondary: #f8f8f8;
+	--text-color-primary: #1f2430;
+	--text-color-muted: #656b76;
+	--surface-color: #ffffff;
+	--social-bg-color: rgba(211, 211, 211, 0.4);
+	--header-shadow-color: rgba(0, 0, 0, 0.1);
+	--footer-border-color: rgba(211, 211, 211, 1);
 	--primary-shadow: #8b8eaf;
 	--transition: 0.3s;
+	color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary-light-color: #8aa0ff;
+		--secondary-light-color: #ff9366;
+		--bg-color-primary: #0f1117;
+		--bg-color-secondary: #161923;
+		--text-color-primary: #e8ecf6;
+		--text-color-muted: #b3bccb;
+		--surface-color: #1c2130;
+		--social-bg-color: rgba(40, 46, 63, 0.65);
+		--header-shadow-color: rgba(0, 0, 0, 0.4);
+		--footer-border-color: rgba(101, 107, 118, 0.55);
+		--primary-shadow: rgba(0, 0, 0, 0.45);
+	}
 }
 
 html,
@@ -21,6 +44,11 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+}
+
+body {
+	background-color: var(--bg-color-primary);
+	color: var(--text-color-primary);
 }
 
 main {
@@ -45,7 +73,7 @@ a.download {
 
 header {
 	background-color: var(--bg-color-primary);
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 5px var(--header-shadow-color);
 	padding: 0 1rem
 }
 
@@ -90,7 +118,7 @@ nav .navmenu a {
 	position: fixed;
 	right: 1%;
 	bottom: 50%;
-	background-color: rgba(211, 211, 211, 0.4);
+	background-color: var(--social-bg-color);
 	border-radius: 0.5rem;
 	padding: 0.25rem;
 	backdrop-filter: blur(4px);
@@ -170,7 +198,7 @@ button {
 }
 
 .date {
-	color: gray;
+	color: var(--text-color-muted);
 	font-family: monospace;
 }
 
@@ -200,7 +228,7 @@ button {
 }
 
 .box {
-	background-color: #fff;
+	background-color: var(--surface-color);
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.5rem var(--primary-shadow);
 }
@@ -267,5 +295,5 @@ footer {
 	padding: 1rem;
 	text-align: center;
 	background-color: var(--bg-color-secondary);
-	border-top: 0.rem solid rgba(211, 211, 211, 1);
+	border-top: 0.1rem solid var(--footer-border-color);
 }
