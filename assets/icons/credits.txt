@@ -9,13 +9,13 @@ AUTHOR: Denali Design
 DOWLOADED FROM: https://www.svgrepo.com/
 
 --------------------------------------------------------------------------------
-github.svg & github-white.svg:
+github.svg:
 Logo is a trademark of "GitHub, Inc."
 It is provided by official GitHub resources directly, see:
 https://github.com/logos
 
 --------------------------------------------------------------------------------
-envelope.svg:
+envelope-fill.svg:
 Free Download Envelope Fill 3 SVG vector file in monocolor and multicolor type
 for Sketch and Figma from Envelope Fill 3 Vectors svg vector collection.
 Envelope Fill 3 Vectors SVG vector illustration graphic art design format.
