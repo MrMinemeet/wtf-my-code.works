@@ -254,7 +254,7 @@ button {
 	}
 
 	.profilepicture {
-		width: 75%;
+		width: 35%;
 		max-width: 25rem;
 		height: auto;
 		object-fit: contain;
