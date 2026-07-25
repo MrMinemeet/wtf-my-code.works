@@ -1,7 +1,5 @@
-/*
- * Copyright © 2025 - Alexander Voglsperger
- * This file is part of my personal website https://wtf-my-code.works
- */
+// Copyright © 2025-2026 Alexander Voglsperger
+// MIT License. See LICENSE file for details
 
 // This file contains small utility functions that are used throughout the website
 
