@@ -30,3 +30,8 @@ matrix.svg:
 Logo is a trademark of "The Matrix.org Foundation" 
 It is provided by official Matrix resources directly, see:
 https://matrix.org/branding/
+
+--------------------------------------------------------------------------------
+codeberg.svg:
+Logo by Codeberg e.V. is provided under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication, see:
+https://codeberg.org/Codeberg/Design
