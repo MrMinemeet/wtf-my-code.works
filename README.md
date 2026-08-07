@@ -16,4 +16,4 @@ This repository uses a split license to cover the different types of content and
 * **Code:** The HTML, CSS, and JavaScript scripts are licensed under the [MIT License](./LICENSE)
 * **Content:** All personal content and images are **Copyright © 2025-2026 Alexander Voglsperger. All Rights Reserved**
 * **Fonts:** The Roboto font is licensed under [SIL OPEN FONT LICENSE Version 1.1](./assets/fonts/roboto/OFL.txt)
-* **Third-Party Assets:** Any brand logos (e.g., GitHub, LinkedIn) are trademarks of their respective owners, are not covered by the MIT license, and are used for reference only. See [`credits.txt`](./icons/credits.txt) for details
+* **Third-Party Assets:** Any brand logos (e.g., GitHub, LinkedIn) are trademarks of their respective owners, are not covered by the MIT license, and are used for reference only. See [`credits.txt`](./assets/icons/credits.txt) for details
